@@ -9,6 +9,7 @@ body {
   }
 
   .container {
+    text-align: center;
     z-index: 1; /* Ensure content is above the background */
     display: flex;
     flex-direction: column;
@@ -27,20 +28,30 @@ body {
     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
     z-index: -1; /* Behind the content */
    } 
+
+   .retro-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff00ff; /* Retro color */
+    border: 2px solid #00ff00; /* Retro border color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px #00ff00; /* Initial shadow for 3D effect */
+  }
+  
+  .retro-button:hover {
+    transform: translateY(2px); /* Move button down slightly on hover */
+    box-shadow: 0 3px #00ff00; /* Shadow effect on hover */
+  }
   
   header {
     text-align: center;
-    background-color: #FB0DF1; /* #FB0DF1; /* #05F7CD;  */
+    background-color: #05F7CD; /* #FB0DF1; /* #05F7CD;  */
     padding: 1rem 0;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
   }
   
   /* Add more styles as needed */
