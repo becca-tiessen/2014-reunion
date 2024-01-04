@@ -1,7 +1,7 @@
 body {
     background-image: url('retro-background.png');
     background-repeat: repeat;
-    font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
+    font-family: 'Marker Felt', 'Comic Sans MS', 'Chalkboard', 'Chalkboard SE', sans-serif;
     cursor: url('retro-mouse.png'), auto;
     margin: 0;
     padding: 0;
